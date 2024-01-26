@@ -21,7 +21,7 @@ The C++ RNBO implementation used this guide from the cycling74 website to setup:
 Working with C++
 https://rnbo.cycling74.com/learn/how-to-include-rnbo-in-your-c-project
 
-NOTE Xcode issues: If you are having difficulties following the RNBO guide above because RNBO.h files are not being found check the ‘RNBO’ header is included. Another solution if directories to .h files are not located, select the project in build settings, ‘Header Search Paths’, double click the directory and make it recursive. Another solution would be to add the rnbo from the project folder into the directory as well with recursive.
+NOTE Xcode issues: If you are having difficulties following the RNBO guide above because RNBO.h files are not being found check the ‘RNBO’ header is included. Another solution if directories to .h files are not located, select the project in build settings, ‘Header Search Paths’, double click the directory and make it is set to  recursive. Another solution would be to add the 'rnbo' folder from the project folder into the directory also set to recursive.
 
 Run the program and when the visual window appears click in the small static circle and the sine tone frequency should adjust when moving the dot on the y axis. The RNBO basic patch is a cycle~ object to ~0.5 to out~ 1.
 
