@@ -27,3 +27,7 @@ Run the program and when the visual window appears click in the small static cir
 
 The miniaudio/RNBO implementation uses the OFThread to run separately from the main OF thread.
 
+RNBO Patch
+<img width="534" alt="Screenshot 2024-01-25 at 4 05 01 PM" src="https://github.com/dfRaff/miniaudioOFRNBO/assets/139554527/a4c9fb46-1987-473c-aed8-8d2afd83535c">
+
+
